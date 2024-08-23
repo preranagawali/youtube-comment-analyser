@@ -17,7 +17,7 @@ nlp = spacy.load('en_core_web_sm')
 emotion_analyzer = pipeline('text-classification', model='j-hartmann/emotion-english-distilroberta-base', return_all_scores=True)
 
 # YouTube API key (hard-coded for now)
-API_KEY = "AIzaSyCm4OfFOvNqeVeRVtAcJWl1fmagy0B3q0E"
+API_KEY = "Google-Youtube-API-Key"
 
 # Function to get YouTube comments
 def get_youtube_comments(api_key, video_id, max_results=100):

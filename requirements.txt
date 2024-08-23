@@ -5,5 +5,5 @@ matplotlib
 seaborn
 vaderSentiment
 streamlit
-API_KEY = "AIzaSyCm4OfFOvNqeVeRVtAcJWl1fmagy0B3q0E"
+
 >> 
